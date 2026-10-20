@@ -1,6 +1,22 @@
-# Original examples
+---
+title: YuE2 Original Examples
+tags: [yue, examples, music, generation, abc, score]
+category: examples
+created: "2024-01-01"
+updated: "2026-10-20"
+source: external
+type: index
+status: stable
+lifecycle: active
+---
+
+# 💡 概述
 
 `song.json` contains the original **City Lights** lyrics and style request used by the agent skill. `melody.abc` is a short, original eight-bar melody for those words. Each lyric line has seven syllables and each bar has seven note onsets. `score.abc` adds harmony; `score-jazz.abc` changes only the chord symbols. These are runnable inputs, not recorded benchmark or quality results.
+
+---
+
+## 🚀 快速开始
 
 From the repository root, after `pip install .`:
 
@@ -30,3 +46,39 @@ python skills/yue2-music/scripts/abc_tools.py compare \
 ```
 
 The comparison verifies unchanged note pitches, timing, meter, and tempo. Listening or audio transcription is still needed to assess the realized music.
+
+---
+
+## ⚡ 功能
+
+「待补充」
+
+---
+
+## ⚙️ 技术栈
+
+「待补充」
+
+---
+
+## 📊 指标
+
+「待补充」
+
+---
+
+## 🏛️ 设计
+
+「待补充」
+
+---
+
+## 📁 目录
+
+「待补充」
+
+---
+
+## 🔗 资源
+
+「待补充」
